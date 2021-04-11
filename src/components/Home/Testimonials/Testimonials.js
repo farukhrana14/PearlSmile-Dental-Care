@@ -35,8 +35,8 @@ const Testimonials = () => {
             <div className='container'>
               <div className='container row'>
                 <div className='section-header col-md-10'>
-                    <h5 style={{color: '#1CC7C1'}}>TESTIMONIAL</h5>
-                    <h1>What Our Patients <br/>Say</h1>
+                    <h5 className='text-brand'>TESTIMONIALS</h5>
+                    <h2>What Our Patients <br/>Say</h2>
                 </div>
                 <div className = 'col-md-2'>
                     <img src={commaImg} alt=" " />

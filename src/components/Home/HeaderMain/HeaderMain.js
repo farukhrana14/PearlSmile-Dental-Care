@@ -9,7 +9,7 @@ const HeaderMain = () => {
                 <h1 style={{color: '#3A4256'}}>Your New Smile <br/> Starts Here</h1>
                 <p className='text-secondary'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem quia labore magnam rem architecto! </p>
                 
-                <button className="btn btn-primary">Get Appointment</button>
+                <button className="btn btn-brand">Get Appointment</button>
             </div>
 
             <div className='col-md-6'>

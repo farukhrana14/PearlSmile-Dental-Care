@@ -15,7 +15,7 @@ const FeaturedService = () => {
                         <h1>Exceptional Dental Care, on Your Terms</h1>
                         <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur optio voluptatibus expedita quae repellat aliquam minus, alias nostrum nisi esse accusamus officiis suscipit odio nesciunt aliquid, ex facere. Eum, aliquam consectetur adipisicing elit. Consectetur optio voluptatibus expedita quae repellat aliquam minus, alias nostrum nisi esse accusamus.</p>
 
-                        <button className='btn btn-primary'>Learn More</button>
+                        <button className='btn btn-brand'>Learn More</button>
                     </div>
 
                 </div>

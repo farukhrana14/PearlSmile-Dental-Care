@@ -9,7 +9,7 @@ const Doctor = () => {
         <div className="col-md-4 text-center">
             <img className="img-fluid mb-3" src={img} alt=""/>
             <h4>Dr. Coudi</h4>
-            <p> <FontAwesomeIcon className="text-primary" icon={faPhoneAlt}/> +880-188-934789</p>
+            <p> <FontAwesomeIcon className="text-brand" icon={faPhoneAlt}/> +880-188-934789</p>
         </div>
     );
 };
