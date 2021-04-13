@@ -11,30 +11,27 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link mr-3" href='/home'>Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link mr-4" href='/home'>Home <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mr-3" href='/home'>About</a>
+        <a className="nav-link mr-4" href='/home'>Patient</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mr-3" href='/home'>Dental Services</a>
+        <a className="nav-link mr-5" href='/dashboard'>Dashboard</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mr-3" href='/home'>Reviews</a>
+        <a  style={{color: '#f0f0f0'}} className="nav-link mr-4" href='/admin'>Admin</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mr-3" href='/home'>Blog</a>
+        <a style={{color: '#f0f0f0'}} className="nav-link mr-4" href='/home'>Blogs</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link mr-3" href='/home'>Contact Us </a>
+        <a style={{color: '#f0f0f0'}} className="nav-link mr-4" href='/home'>Contact Us </a>
       </li>
       
       
     </ul>
-    <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+ 
   </div>
 </nav>
   );
