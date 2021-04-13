@@ -13,7 +13,7 @@ const MakeAppointment = () => {
 
                     <div className='col-md-7 text-white mt-5'>
                         <h5 className='text-brand' >Appointment</h5>
-                        <h1 className='my-4'>Make an Appointment Today</h1>
+                        <h1 className='my-4'>Make an Appointment <br/> Today</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto culpa illum eligendi sint. Dignissimos libero veritatis. </p>
                         <button className='btn btn-brand'>Learn More</button>
                     </div>

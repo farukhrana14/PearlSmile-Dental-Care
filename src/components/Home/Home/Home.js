@@ -11,7 +11,7 @@ import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
-        <div className='container'>
+        <div >
             <Header/>
             <Services/>
             <FeaturedService/>

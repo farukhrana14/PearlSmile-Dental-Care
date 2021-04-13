@@ -14,7 +14,7 @@ const AppointmentShortList = ({appointments}) => {
                 {
                     appointments.map((appointment, index) => 
                     
-                    <tr>
+                    <tr key={index}>
                         <td>{appointment.name}</td>
                         <td>{appointment.phone}</td>
                         <td>{appointment.email}</td>

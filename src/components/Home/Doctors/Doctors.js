@@ -13,7 +13,7 @@ const Doctors = () => {
 
     return (
         <section className="doctors">
-            <div className="container">
+            <div >
                 <h5 className="text-center  text-brand mb-5">Our Doctors</h5>
                 <div className="row">
                 {

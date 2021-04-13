@@ -1,10 +1,11 @@
 import React from 'react';
-import './Doctor.css';
-import img from '../../../images/doctor.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Doctor = ({doctor}) => {
+
+    // console.log(doctor);
+
     return (
         <div className="col-md-4 col-sm-6 text-center">
             {

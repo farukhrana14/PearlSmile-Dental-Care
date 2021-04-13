@@ -4,11 +4,11 @@ import AppointmentShortList from '../AppointmentShortList/AppointmentShortList';
 
 const AppointmentByDate = ({appointments}) => {
     
-    console.log(appointments);
+    // console.log(appointments);
     
     return (
         <div>
-            <h1>Appointments {appointments.length}</h1>
+            <h2 className="text-brand text-center">Appointments</h2>
             {
                 appointments.length ?
                     <AppointmentShortList appointments={appointments} ></AppointmentShortList>

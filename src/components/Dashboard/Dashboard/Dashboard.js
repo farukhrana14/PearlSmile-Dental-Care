@@ -7,7 +7,7 @@ import { UserContext } from '../../../App';
 
 const containerStyle ={
     backgroundColor:    '#F4FDFB',
-    height: '100%'
+    // height: '100%'
 }
 
 const Dashboard = () => {
@@ -18,7 +18,7 @@ const Dashboard = () => {
 
     const handleDateChange = (date) => {
         setSelectedDate(date);
-        // console.log(date);
+        // console.log(date.toISOString());
     }
 
     useEffect(()=>{
@@ -38,14 +38,14 @@ const Dashboard = () => {
 
     return (
         <section>
-            <div style={containerStyle} className="container-fluid row">
-                <div className="col-md-2">
+            <div style={containerStyle} className="row">
+                <div className="col-md-2 col-sm-6 col-12">
                     <Sidebar/>
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-5 col-sm-12 col-12 d-flex justify-content-center">
                 <Calendar className='react-calendar' onChange={handleDateChange} value={new Date()} />
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-5 col-sm-12 col-12">
                     <AppointmentByDate appointments={appointments} />
                 </div>
 

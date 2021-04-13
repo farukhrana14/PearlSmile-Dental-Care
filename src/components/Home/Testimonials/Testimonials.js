@@ -44,7 +44,7 @@ const Testimonials = () => {
               </div>
                 <div className='card-deck mt-5 row '>
                     {
-                        testimonialData.map(data => <Testimonial data = {data} ></Testimonial>)
+                        testimonialData.map(data => <Testimonial data = {data} key={data.name} ></Testimonial>)
                     }
 
                 </div>

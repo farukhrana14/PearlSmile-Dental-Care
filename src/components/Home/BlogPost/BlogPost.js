@@ -1,8 +1,8 @@
 import React from 'react';
-import './BlogPost.css';
 
 const BlogPost = (props) => {
     const {title, description, author, authorImg , date} = props.blog;
+   
     return (
         <div className="card shadow-sm">
             <div className="card-header d-flex  align-items-center">

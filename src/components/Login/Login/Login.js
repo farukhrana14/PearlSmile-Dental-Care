@@ -9,7 +9,7 @@ import firebaseConfig from './firebase.config';
 
 
 const Login = () => {
-  const [loggedInUser, setLoggedInUser] = useContext(UserContext) 
+  const [loggedInUser, setLoggedInUser] = useContext(UserContext); 
   const history = useHistory();
   const location = useLocation();
   const {from} = location.state || {from: {pathname: '/'}};
@@ -29,8 +29,6 @@ const Login = () => {
             const errorMessage = error.message;
             console.log(errorMessage);
             });
-        
-        console.log('object');
     }
   
     const storeAuthToken = () => {
@@ -39,7 +37,8 @@ const Login = () => {
             sessionStorage.setItem('token', idToken);
             history.replace(from);
           }).catch(function (error) {
-            // Handle error
+            const errorMessage = error.message;
+            console.log(errorMessage);
           });
       }
 

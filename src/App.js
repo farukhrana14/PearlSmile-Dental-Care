@@ -1,5 +1,5 @@
-import './App.css';
 import React, { createContext, useState } from "react";
+import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +23,22 @@ function App() {
       <Router>
         <Switch>
           
+          <PrivateRoute path='/appointment'>
+            <Appointment/>
+          </PrivateRoute>
+          
+          <PrivateRoute path='/dashboard'>
+            <Dashboard/>
+          </PrivateRoute>
+          
+          <PrivateRoute path='/allPatients'>
+            <AllPatients/>
+          </PrivateRoute>
+
+          <PrivateRoute path='/addDoctor'>
+            <AddDoctor/>
+          </PrivateRoute>
+
           <Route exact path='/'>
             <Home/>
           </Route>
@@ -30,25 +46,9 @@ function App() {
           <Route exact path='/home'>
             <Home/>
           </Route>
-          
+
           <Route exact path='/login'>
             <Login/>
-          </Route>
-          
-          <Route path='/appointment'>
-            <Appointment/>
-          </Route>
-          
-          <Route path='/dashboard'>
-            <Dashboard/>
-          </Route>
-          
-          <Route path='/allPatients'>
-            <AllPatients/>
-          </Route>
-
-          <Route path='/addDoctor'>
-            <AddDoctor/>
           </Route>
         
         </Switch>

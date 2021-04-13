@@ -6,6 +6,7 @@ import './AppointmentHeader.css';
 
 
 const AppointmentHeader = ({ handleDateChange }) => {
+  
   return (
     <div className="d-flex justify-content-center">
       <div className="w-85">

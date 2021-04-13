@@ -4,7 +4,7 @@ import featuredImg from '../../../images/featuredservice.png';
 
 const FeaturedService = () => {
     return (
-        <section className='container featured-service pb-0 pb-md-5 my-5'>
+        <section className='featured-service pb-0 pb-md-5 my-5'>
             <div className='container mb-5'>
                 <div className='row mb-5'>
                     <div className='col-md-5 md-4 m-md-0'>
