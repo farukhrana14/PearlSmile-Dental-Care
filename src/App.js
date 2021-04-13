@@ -23,10 +23,6 @@ function App() {
       <Router>
         <Switch>
           
-          <PrivateRoute path='/appointment'>
-            <Appointment/>
-          </PrivateRoute>
-          
           <PrivateRoute path='/dashboard'>
             <Dashboard/>
           </PrivateRoute>
@@ -45,6 +41,10 @@ function App() {
           
           <Route exact path='/home'>
             <Home/>
+          </Route>
+
+          <Route path='/appointment'>
+            <Appointment/>
           </Route>
 
           <Route exact path='/login'>
