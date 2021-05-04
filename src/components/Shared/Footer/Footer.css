@@ -1,5 +1,10 @@
 .footer-area{
     background-image: url(../../../images/footer-bg.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    margin-bottom: -10px;
+    background-repeat: no-repeat;
+    background-color: rgb(211, 243, 254);
     background-size: cover;
 }
 
